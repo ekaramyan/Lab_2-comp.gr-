@@ -14,7 +14,7 @@ namespace Lab_2_comp.gr_
     {
         // Объявляем объект "g" класса Graphics
         Graphics g;
-        //**************Конструктор формы *******************************
+        //*Конструктор формы
         public Form1()
         {
             InitializeComponent();
@@ -146,6 +146,15 @@ namespace Lab_2_comp.gr_
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void Button5_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Made by EdosDDos");
         }
     }
 }
